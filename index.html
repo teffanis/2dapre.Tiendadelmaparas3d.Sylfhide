@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SYLFHIDE</title>
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header__content">
+                <h1 class="header__title">Sylfhide - Tienda de Lamparas 3D</h1>
+                
+                <div class="header__search">
+                    <input type="text" id="txt-search" class="header__search-input" placeholder="Buscar productos...">
+                    <button id="btn-search" class="header__search-btn">Buscar</button>
+                </div>
+                
+                <button id="btn-add" class="header__add-btn">Agregar Producto</button>
+                <button class="header__cart-btn" id="cart-btn">🛒 <span class="header__cart-count" id="cart-count">(0)</span></button>
+            </div>
+        </div>
+    </header>
+
+    <main class="main">
+        <div class="container">
+            <h2>Lámparas 3D</h2>
+            <div id="product-grid-3d" class="product-grid"></div>
+            
+            <h2>Lámparas Rústicas</h2>
+            <div id="product-grid-rusticas" class="product-grid"></div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Sylfhide - Todos los derechos reservados</p>
+        </div>
+    </footer>
+
+    <script src="./javascript/app.js"></script>
+</body>
+</html>
