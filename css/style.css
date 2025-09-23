@@ -33,7 +33,7 @@ body {
     padding: 0 15px;
 }
 
-/* Header mejorado */
+/* Header */
 header {
     background: linear-gradient(135deg, var(--primary-light) 0%, var(--secondary-light) 100%);
     color: white;
@@ -99,7 +99,7 @@ header {
     right: -8px;
 }
 
-/* Banner destacado */
+/* Banner  */
 .hero-banner {
     background: url('../images/banner.jpg') no-repeat center center/cover;      
     background-position: center;
@@ -169,7 +169,7 @@ h2::after {
     border-radius: 2px;
 }
 
-/* Products Grid mejorado */
+/* Products Grid */
 .products-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -264,7 +264,7 @@ h2::after {
     box-shadow: 0 5px 15px rgba(138, 79, 255, 0.4);
 }
 
-/* Cart Section mejorada */
+/* Cart Section */
 #cartSection {
     background: var(--card-light);
     padding: 2.5rem;
@@ -305,7 +305,7 @@ h2::after {
     transform: translateY(-2px);
 }
 
-/* Footer mejorado */
+/* Footer */
 footer {
     background: linear-gradient(135deg, #2c3e50 0%, #34495e 100%);
     color: white;
