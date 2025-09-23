@@ -290,6 +290,16 @@ h2::after {
     border-bottom: none;
 }
 
+.btn-primary {
+    background: linear-gradient(135deg, var(--primary-light) 0%, var(--secondary-light) 100%);
+    color: white;
+    border: none;
+    padding: 0.7rem 1.2rem;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
 .delete-button {
     background: var(--accent-light);
     color: white;
