@@ -25,9 +25,7 @@ const purchasedItem = (item) => {
     const orderItem = document.createElement("div");
     orderItem.className = "order-item";
     orderItem.innerHTML = `
-        <div class="order-product">
-            <img src="${item.image}" alt="${item.name}" class="order-image" 
-                 onerror="this.src='https://via.placeholder.com/80x80/6a11cb/ffffff?text=💡'">
+       
             <div class="order-details">
                 <h4>${item.name}</h4>
                 <p class="order-description">${item.description || 'Lámpara 3D de alta calidad'}</p>
