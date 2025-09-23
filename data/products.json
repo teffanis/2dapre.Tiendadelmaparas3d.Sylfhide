@@ -1,0 +1,38 @@
+{
+    "lamparas3d": [
+        {
+            "id": 1,
+            "name": "Lux",
+            "image": "images/lux.png",
+            "description": "Lámpara 3D moderna con diseño elegante",
+            "price": 12,
+            "category": "3d"
+        },
+        {
+            "id": 2,
+            "name": "Afro",
+            "image": "images/afro.jpg",
+            "description": "Lámpara 3D con patrón africano único",
+            "price": 16,
+            "category": "3d"
+        }
+    ],
+    "lamparasRusticas": [
+        {
+            "id": 3,
+            "name": "Luxrrus",
+            "image": "images/luxrus.jpg",
+            "description": "Lámpara colgante clasica. Pintura sellada",
+            "price": 40,
+            "category": "rusticas"
+        },
+        {
+            "id": 4,
+            "name": "Afrorus",
+            "image": "images/afrorus.png",
+            "description": "Lámpara rústica con diseño africano.Base madera nogal",
+            "price": 20,
+            "category": "rusticas"
+        }
+    ]
+}

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Orden de Compra - Sylfhide</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/order.css">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Parisienne&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="order-container">
+        <header class="order-header">
+            <div class="logo"> Sylfhide</div>
+            <h1>¡Gracias por tu compra!</h1>
+        </header>
+
+        <main class="order-content">
+            <div class="order-success">
+                <h2>Tu orden ha sido procesada exitosamente</h2>
+                <p>Te hemos enviado un correo de confirmación con los detalles de tu compra.</p>
+            </div>
+
+            <section class="order-details">
+                <h3>Resumen de tu orden</h3>
+                <div id="finalOrder" class="order-items"></div>
+            </section>
+
+            <div class="order-actions">
+                <button id="backToHomepage" class="btn-primary">Volver a la Tienda</button>
+                <p class="auto-redirect">Serás redirigido automáticamente en <span id="countdown">Unos</span> segundos</p>
+            </div>
+        </main>
+
+        <footer class="order-footer">
+            <p>&copy; 2025 Sylfhide - Placer en iluminacion</p>
+        </footer>
+    </div>
+
+    <script src="../Javascript/order.js"></script>
+</body>
+</html>

@@ -3,42 +3,65 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SYLFHIDE</title>
-    <link rel="stylesheet" href="./css/styles.css">
+    <title>Sylfhide - Tienda de Lámparas 3D</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 </head>
 <body>
-    <header class="header">
+    <header>
         <div class="container">
-            <div class="header__content">
-                <h1 class="header__title">Sylfhide - Tienda de Lamparas 3D</h1>
-                
-                <div class="header__search">
-                    <input type="text" id="txt-search" class="header__search-input" placeholder="Buscar productos...">
-                    <button id="btn-search" class="header__search-btn">Buscar</button>
+            <div class="header-content">
+                <div class="logo"> Sylfhide</div>
+                <nav class="nav-links">
+                    <a href="#lamparas-3d">Lámparas 3D</a>
+                    <a href="#lamparas-rusticas">Lámparas Rústicas</a>
+                </nav>
+                <div class="cart-icon" id="cartIcon">
+                    🛒 <span class="cart-count" id="cartCount">0</span>
                 </div>
-                
-                <button id="btn-add" class="header__add-btn">Agregar Producto</button>
-                <button class="header__cart-btn" id="cart-btn">🛒 <span class="header__cart-count" id="cart-count">(0)</span></button>
             </div>
         </div>
     </header>
-
-    <main class="main">
+    <!-- Banner Hero Destacable -->
+    <section class="hero-banner">
         <div class="container">
+            <div class="banner-content">
+                <h1 class="banner-title">Placer en iluminacion</h1>
+                <p class="banner-subtitle"> Transforma tus espacios </p>
+                <div class="banner-highlight">
+                    <div class="feature-item">
+                        <i class="fas fa-award"></i>
+                        <span>Calidad premium</span>
+    </section>
+
+    <main class="container">
+        <section id="lamparas-3d">
             <h2>Lámparas 3D</h2>
-            <div id="product-grid-3d" class="product-grid"></div>
-            
+            <div class="products-grid" id="lamparas3dList"></div>
+        </section>
+
+        <section id="lamparas-rusticas">
             <h2>Lámparas Rústicas</h2>
-            <div id="product-grid-rusticas" class="product-grid"></div>
-        </div>
+            <div class="products-grid" id="lamparasRusticasList"></div>
+        </section>
+
+        <!-- Sección del Carrito -->
+        <section id="cartSection" style="display: none;">
+            <h2>Tu Carrito de Compras</h2>
+            <div id="cartContainer">
+                <p id="cartSummaryText"></p>
+                <div id="productsOrderedInfo"></div>
+                <button id="finishOrderButton" class="btn-primary">Finalizar Compra</button>
+            </div>
+        </section>
     </main>
 
-    <footer class="footer">
+    <footer>
         <div class="container">
-            <p>&copy; 2025 Sylfhide - Todos los derechos reservados</p>
+            <p>&copy; 2025 Sylfhide - Tienda de Lámparas 3D</p>
         </div>
     </footer>
 
-    <script src="./javascript/app.js"></script>
+    <script src="javascript/app.js"></script>
 </body>
 </html>

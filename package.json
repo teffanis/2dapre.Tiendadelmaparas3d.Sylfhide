@@ -1,0 +1,20 @@
+{
+  "name": "sylfhide",
+  "version": "1.0.0",
+  "description": "e-commerce 3D",
+  "homepage": "https://github.com/teffanis/2dapre.Tiendadelmaparas3d.Sylfhide#readme",
+  "bugs": {
+    "url": "https://github.com/teffanis/2dapre.Tiendadelmaparas3d.Sylfhide/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/teffanis/2dapre.Tiendadelmaparas3d.Sylfhide.git"
+  },
+  "license": "ISC",
+  "author": "ortiz estefanis",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
