@@ -82,7 +82,7 @@ const showFinalOrder = () => {
 
 // Muestra el contador regresivo
 const startCountdown = () => {
-    let seconds = 1000;
+    let seconds = 10;
     const countdownInterval = setInterval(() => {
         seconds--;
         countdownElement.textContent = seconds;
