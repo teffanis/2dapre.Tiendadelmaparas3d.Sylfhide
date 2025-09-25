@@ -100,7 +100,7 @@ const startCountdown = () => {
 // Función para volver a la Homepage y limpiar "Carrito" del localStorage al volver
 const goToHomePage = () => {
     localStorage.removeItem("Carrito");
-    window.location.href = "../index.html";
+    window.location.href = "./index.html";
 }
 
 // EVENTOS
